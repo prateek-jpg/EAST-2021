@@ -745,7 +745,7 @@ th {
 }
 
 .section-bg {
-  background:rgb(255, 254, 254);
+  background:rgb(255,254,254);
 }
 
 @media (max-width: 767px) {
@@ -838,7 +838,7 @@ th {
 .progressBar-circle,
 .progressBar-background {
   fill: none;
-  stroke: #777777;
+  stroke: f75f78;
   stroke-width: 5;
   stroke-linecap: round;
   stroke-dasharray: 0;
@@ -852,7 +852,7 @@ th {
 }
 
 .progressBar-background {
-  stroke: #f9f9ff;
+  stroke:f75f78;
   stroke-width: 4;
   z-index: 0;
 }
