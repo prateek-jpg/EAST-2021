@@ -745,7 +745,7 @@ th {
 }
 
 .section-bg {
-  background: #f9fafc;
+  background:rgb(255, 254, 254);
 }
 
 @media (max-width: 767px) {
