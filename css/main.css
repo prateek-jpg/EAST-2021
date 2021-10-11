@@ -557,6 +557,12 @@ th {
 .p-40 {
   padding: 40px;
 }
+.px1-4{
+	padding-right: 3.5rem;
+}
+.px1-4{
+	padding-left: 3.5rem;
+}
 
 .float-left {
   float: left;
@@ -745,7 +751,7 @@ th {
 }
 
 .section-bg {
-  background:rgb(255,254,254);
+  background: #f9fafc;
 }
 
 @media (max-width: 767px) {
@@ -838,7 +844,7 @@ th {
 .progressBar-circle,
 .progressBar-background {
   fill: none;
-  stroke: f75f78;
+  stroke: #777777;
   stroke-width: 5;
   stroke-linecap: round;
   stroke-dasharray: 0;
@@ -852,7 +858,7 @@ th {
 }
 
 .progressBar-background {
-  stroke:f75f78;
+  stroke: #f9f9ff;
   stroke-width: 4;
   z-index: 0;
 }
@@ -1451,7 +1457,7 @@ th {
   top: 0;
   width: 50%;
   height: 110%;
-  background: url(../img/vector/vhandNew.jpg) no-repeat center center/cover;
+  background: url(../img/vector/JOIN\ US\ BG.png) no-repeat center center/cover;
   z-index: 1;
 }
 
