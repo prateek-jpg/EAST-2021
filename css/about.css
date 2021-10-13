@@ -1,26 +1,23 @@
 #explore {
   height: auto;
-  margin: 3rem 8rem;
+  padding: 2rem 6rem;
+  background-color: rgb(234, 234, 247);
 }
 .about-container {
   align-items: center;
-  height: 100vh;
-}
-.about-us {
-  margin: 2rem 5rem;
+  height: auto;
 }
 .about-heading {
-  padding: 1rem 0;
+  padding: 4rem 0 2rem;
   margin: 5px;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  background-color: rgba(3, 11, 31, 0.8);
 }
 .about-heading-text {
   color: rgba(255, 0, 0, 0.9);
 }
 .span-element {
-  color: rgb(234, 234, 247);
+  color: #121416;
 }
 .span-element-1 {
   color: #121416;
@@ -36,7 +33,7 @@
 }
 .mission {
   text-align: center;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 }
 .mission-text {
   color: rgba(255, 0, 0, 0.9);
@@ -45,10 +42,10 @@
   display: grid;
   margin: 2rem 0;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 25px;
+  grid-gap: 35px;
   padding: 2rem 1rem 3rem;
   align-items: center;
-  height: 50%;
+  height: 70%;
   position: relative;
 }
 .cards {
@@ -91,7 +88,7 @@
 /* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   #explore {
-    margin: 2rem 1rem;
+    margin: 2rem 2rem;
   }
   .card-container {
     grid-template-columns: 1fr 1fr;
@@ -101,7 +98,7 @@
 
 @media screen and (max-width: 768px) {
   #explore {
-    margin: 2rem 5rem;
+    margin: 2rem 1rem;
   }
   .card-container {
     grid-template-columns: 1fr;

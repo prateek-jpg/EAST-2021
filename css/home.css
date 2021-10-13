@@ -7,17 +7,22 @@
 html {
   scroll-behavior: smooth;
 }
-.home {
-  background-image: url(/img/vector/homepage.png);
-  height: 100vh;
-  width: 100%;
+#homepage {
+  background-image: url("../img/homepage.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.home {
+  height: 100vh;
+  width: 100%;
+
   display: block;
 }
 .logo {
   height: 90px;
+}
+.sticky-header {
 }
 nav {
   display: flex;
@@ -28,6 +33,7 @@ nav {
 
 .nav-toggle {
   z-index: 99999;
+  padding-right: 1.5rem;
 }
 nav ul {
   display: flex;
@@ -243,7 +249,7 @@ nav ul li a:hover {
   }
 }
 @media screen and (max-width: 600px) {
-  .home {
+  #homepage {
     background-image: url("../img/vector/East_mob_4.png");
   }
   .main-container {
