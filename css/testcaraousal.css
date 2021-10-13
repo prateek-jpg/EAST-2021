@@ -38,6 +38,11 @@
     margin: 5px 5px 5px 5px !important;
     overflow: hidden !important;
   }
+ .item{
+   width: 95%;
+   margin-left: 3px;
+
+  }
 .cells{
    
     text-align: center;
