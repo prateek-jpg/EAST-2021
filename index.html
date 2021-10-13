@@ -6,6 +6,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+      <!-- font-awesome -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/logo-final.png" />
     <!-- Author Meta -->
@@ -34,6 +39,9 @@
       href="https://fonts.googleapis.com/css?family=Poppins:300,500,600"
       rel="stylesheet"
     />
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.3.4/dist/aos.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!--
 		CSS
 		============================================= -->
@@ -52,6 +60,8 @@
     <!-- <link rel="stylesheet" href="css/bootstrap-get.css"> -->
     <link rel="stylesheet" href="css/bootstrap-grid.css" />
     <link rel="stylesheet" href="css/colour.css"/>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/home.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -60,7 +70,7 @@
 
   <body>
     <!-- PRELOADER START-->
-    <div class="preloader">
+    <!--<div class="preloader">
       <div class="preloader__container">
         <h1 style="color: snow;" class="preloader__container__percent"></h1>
         <div class="preloader__container__preload">
@@ -71,11 +81,11 @@
         </div>
       </div>
     </div>
-    <!-- PRELOADER END-->
-    <div id="loading"></div>
+    PRELOADER END-->
+    <!--<div id="loading"></div>
     <div id="top"></div>
-    <!-- Start Header Area -->
-    <header class="default-header">
+     Start Header Area -->
+    <!--<header class="default-header">
       <div class="sticky-header">
         <div class="container">
           <div
@@ -93,8 +103,8 @@
                   <li><a href="#explore">about</a></li>
                   <li><a href="#tform">Join Us</a></li>
                   <li><a href="#team">Team</a></li>
-                  <!-- <li><a href="#blog">Blog</a></li> -->
-                  <li><a href="#contact">Contact</a></li>
+                   <li><a href="#blog">Blog</a></li> -->
+                 <!-- <li><a href="#contact">Contact</a></li>
                 </ul>
                 <a href="#" class="mobile-btn"
                   ><span class="lnr lnr-menu"></span
@@ -119,9 +129,9 @@
         </div>
       </div>
     </header>
-    <!-- End Header Area -->
+     End Header Area -->
     <!-- Start Banner Area -->
-    <section class="banner-area relative">
+    <!--<section class="banner-area relative">
       <div class="container">
         <div class="row fullscreen justify-content-center align-items-center">
           <div class="col-md-6 offset-md-6">
@@ -131,18 +141,84 @@
                 Entrepreneurship Accords and Startup Growth Traffic
               </h3>
 
-              <!-- <a href="#about-section" class="primary-btn banner-btn">Explore Us</a> -->
+              <a href="#about-section" class="primary-btn banner-btn">Explore Us</a> -->
 
               <!-- <a href="#about-section"><span id="scroll"></span></a> -->
-            </div>
+            <!--</div>
           </div>
         </div>
 
-        <!-- <section id="section10" class="demo">
+         <section id="section10" class="demo">
 					<a href="#explore"><span></span>Explore</a>
 				</section>	 -->
+     <!-- </div>
+    </section>-->
+
+    <div id="loading"></div>
+    <div id="top"></div>
+
+    <section id="homepage" class="home">
+      <nav class="navbar sticky-header" data-aos="fade-up" onscroll="myFunc()">
+        <div class="nav-header">
+          <a href="#index.html">
+            <img class="logo" src="img/vector/east 2-01.png" alt="logo" />
+          </a>
+        </div>
+        <div class="navbar-links links">
+          <ul class="nav-links">
+            <li><a href="#homepage">home</a></li>
+            <li><a href="#explore">about</a></li>
+            <li><a href="#tform">join us</a></li>
+            <li><a href="#team">team</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+        <div class="toggle">
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+      <div class="main-container" data-aos="fade-left"> 
+        <div class="main-text"></div>
+        <h1 class="text-heading">
+          Entrepreneurship Accords and Startup Growth Traffic
+        </h1>
+        <p class="text-subheading">
+          with the aim of building nation wide network of entrepreneurship
+          cells.
+        </p>
+      </div>
+      <div class="social-media" data-aos="fade-down">
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.instagram.com/_e.a.s.t/"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/EASTVSSUT/"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/entrepreneurship-accords-startup-growth-and-traffic/"><i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+        <div class="down-arrow" data-aos="fade-down">
+          <a href="#explore"><i class="fas fa-sort-down"></i></a>
+          <a href="#explore"><i class="fas fa-sort-down"></i></a>
+          <a href="#explore"><i class="fas fa-sort-down"></i></a>
+        </div>
+      </div>
+      <div id="slider" class="slider">
+        <ul class="nav-links">
+          <li><a href="#homepage">home</a></li>
+          <li><a href="#explore">about</a></li>
+          <li><a href="#tform">join us</a></li>
+          <li><a href="#team">team</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
       </div>
     </section>
+
+
 
     <!-- End Banner Area -->
     <script>
@@ -159,7 +235,7 @@
     </script>
 
     <!-- Start About Area -->
-    <section id="explore">
+   
       <div class="site-section bg-light" id="about-section">
         <div class="container">
           <div class="row mb-5">
@@ -199,7 +275,7 @@
               </p>
             </div>
           </div>
-          <div class="row mb-5">
+          <!--<div class="row mb-5">
             <div class="col-md-6" data-aos="fade-right">
               <img src="img/vector/mission.png" alt="Image" class="img-fluid" />
             </div>
@@ -211,9 +287,9 @@
               >
                 Our Mission and Vision
               </h2>
-              <!--   <p class="mb-4">Power lies in togetherness. We as an individual can stand against odds always but as an amalgamation we stand stronger. With a very competent team and strong determination, E. A. S. T by E-Cell, VSSUT envisions to promote enterpreneurial spirits and fabricate the startup culture in the state of Odisha and in the whole nation. With mutual understanding and cooperation, we can definitely make this programme a grand success and contribute towards country's development.</p> -->
+              <p class="mb-4">Power lies in togetherness. We as an individual can stand against odds always but as an amalgamation we stand stronger. With a very competent team and strong determination, E. A. S. T by E-Cell, VSSUT envisions to promote enterpreneurial spirits and fabricate the startup culture in the state of Odisha and in the whole nation. With mutual understanding and cooperation, we can definitely make this programme a grand success and contribute towards country's development.</p> -->
 
-              <ul
+             <!-- <ul
                 class="list-display list-checkmarks list-group list-group-flush mb-5"
               >
                 <div data-aos="zoom-in">
@@ -255,10 +331,70 @@
                 </div>
               </ul>
             </div>
+          </div>-->
+          <div class="mission" data-aos="fade-up">
+            <h3 class="mission-text"><span class="span-element-1">Our</span> Missions <span class="span-element-1">and </span>Objectives</h3>
+          </div>
+        <div class="card-container">
+          <div class="card-1 cards" data-aos="fade-up">
+            <div class="card-images">
+                <img class="card-img" src="img/vector/Entreprenuretial spirit.png" alt="">
+            </div>
+            <div class="card-content" >
+              <p class="card-text">To promote entrepreneurial spirits.</p>
+            </div>
+          </div>
+          <div class="card-2 cards" data-aos="fade-up">
+            <div class="card-images">
+                <img class="card-img" src="img/vector/fund.png" alt="">
+            </div>
+            <div class="card-content">
+              <p class="card-text">Promote and spread startup culture nationwide.</p>
+            </div>
+          </div>
+          <div class="card-3 cards" data-aos="fade-up">
+            <div class="card-images">
+                <img class="card-img" src="img/vector/mindset.png" alt="">
+            </div>
+            <div class="card-content">
+              <p class="card-text">
+                Work to make the most of
+                the resources available.
+              </p>
+            </div>
+          </div>
+          <div class="card-4 cards" data-aos="fade-up">
+            <div class="card-images">
+                <img class="card-img" src="img/vector/brainstorm.png" alt="">
+            </div>
+            <div class="card-content">
+              <p class="card-text">
+                Establishment with highly efficient
+                entrepreneurial mindsets
+              </p>
+            </div>
+          </div>
+          <div class="card-5 cards" data-aos="fade-up">
+            <div class="card-images">
+                <img class="card-img" src="img/vector/knowledge.png" alt="">
+            </div>
+            <div class="card-content">
+              <p class="card-text">To outshine and prosper with competitive spirit.</h2>
+            </div>
+          </div>
+          <div class="card-6 cards" data-aos="fade-up">
+            <div class="card-images">
+                <img class="card-img" src="img/vector/competitive.png" alt="">
+            </div>
+            <div class="card-content">
+              <p class="card-text">To lead forward with unison withholding a solid foundation</h2>
+            </div>
           </div>
         </div>
+      
+        </div>
       </div>
-    </section>
+    
 
     <!-- <section id="explore" class="section-full gray-bg py-5">
 		<div class="container" >
@@ -413,7 +549,7 @@
           <div class="area-title" style="text-align: center;">
             <h2 class="section-line" id="red" ; style="padding-top: 10px;">
               Why Choose
-              <span style="color: rgba(249, 250, 253, 0.8);">E.A.S.T</span>
+              <span style="color: black;">E.A.S.T</span>
             </h2>
             <br>
           </div>
@@ -537,6 +673,7 @@
         </div>
       </div>
     </div>
+   </div>
   
     <!-- test end -->
 
