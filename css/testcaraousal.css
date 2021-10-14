@@ -4,14 +4,14 @@
     --clr-dark: #90a4ae;
     --clr-dark-heavy: #546e7a;
   }
-  .owl-carousel .owl-stage {
-    display: flex;
-}
+ 
 .img-circle{
   width: auto;
   height: 100%;
 }
-
+.owl-theme .owl-dots .owl-dot span{
+  margin: 1px 1px;
+}
 
   
   .item{
