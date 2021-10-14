@@ -4,11 +4,22 @@
     --clr-dark: #90a4ae;
     --clr-dark-heavy: #546e7a;
   }
+  .owl-carousel .owl-stage {
+    display: flex;
+}
+.img-circle{
+  width: auto;
+  height: 100%;
+}
+
+
   
   .item{
       border:2px solid darkslategray transparent;
       box-sizing: border-box;
       border-radius: 7px;
+      padding: 10px;
+
 
   }
   button{
@@ -17,6 +28,11 @@
   }
   .box{
     margin-bottom: 3% !important;
+    margin-left: 3%;
+    margin-right: 5%;
+    width: auto;
+    height: 210px;
+    
   }
   .cells{
     
@@ -39,9 +55,17 @@
     overflow: hidden !important;
   }
  .item{
-   width: 95%;
+   width: 92%;
    margin-left: 3px;
+   padding: 5px;
 
+  }
+  .img-circle{
+    width: auto;
+    height: 95%;
+  }
+  .box{
+    margin-bottom: 3% !important;
   }
 .cells{
    
