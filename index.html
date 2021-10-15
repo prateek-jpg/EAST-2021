@@ -2126,7 +2126,7 @@
           </div>
         </div>
 
-        <div class="row mb-5">
+        <!-- <div class="row mb-5">
           <div class="col-lg-6 col-md-12" data-aos="fade-right">
             <div class="accordion">
               <div class="accordion-item">
@@ -2235,6 +2235,72 @@
                     Understand (MoU).
                   </div>
                 </div>
+              </div> -->
+
+              <div id="faqs" class="container">
+                  
+                <div id="faqSection" class="fullwidth-container">
+                  <div>
+                    <button class="collapsible">What is EAST and Why EAST?</button>
+                    <div class="faq-content">
+                      <p>EAST (Entrepreneurship Accords and Startup growth Traffic)
+                        is a network building programme by E-Cell, VSSUT which aims
+                        to collaborate with similar organisations and to foster
+                        entrepreneurship. EAST can be a great platform where various
+                        E-cells can come together and share their resources and
+                        enhance their network for mutual benefits.</p>
+                    </div>
+                    <button class="collapsible">Can you help us to set up an E-cell at our college? (If not
+                      already).</button>
+                    <div class="faq-content">
+                      <p>Yes. Encouraging entrepreneurial spirits among the colleges
+                        is what we aim for. So we can assist to form an E-Cell in
+                        your college from scratch if not already existing.</p>
+                    </div>
+                    <button class="collapsible">Is there any monetary policy?</button>
+                    <div class="faq-content">
+                      <p>No. There is no monetary policy, we believe in working on
+                        mutual cooperation and interest.</p>
+                    </div>
+                    <button class="collapsible">Up to what stage will EAST help different student
+                      entrepreneurs and their startups to grow?</button>
+                    <div class="faq-content">
+                      <p>As the aim suggests, we work on enhancing contacts which can
+                        further be used as an opportunity in developing and
+                        upholding of any startup. EAST can provide opportunities
+                        sharing platform to the startups.</p>
+                    </div>
+                  </div>
+                  <div>
+                    <button class="collapsible">How to be a member of the programme EAST?</button>
+                    <div class="faq-content">
+                      <p>For having the membership in EAST you just have to fill in
+                        basic details on the website through Typeform available in
+                        the website and further proceedings will be carried out by
+                        our admins.</p>
+                    </div>
+                    <button class="collapsible">What makes an E-cell qualified/unqualified for being a part of
+                      EAST or do(s) and don’t(s)?</button>
+                    <div class="faq-content">
+                      <p>The only criteria for any E-Cell is just to be a registered
+                        entrepreneurship society of their institutes. For do(s) and
+                        don't(s) part, you have to abide by all the terms and
+                        conditions of MoU and anything against that would lead to
+                        the banishment of that E-Cell from the programme.</p>
+                    </div>
+                    <button class="collapsible">How long will the collaboration last?</button>
+                    <div class="faq-content">
+                      <p>The collaboration will last for six months for minimum and
+                        further, it will be depending upon the MoU agreement.</p>
+                    </div>
+                    <button class="collapsible">Any contract or agreement we have to sign beforehand?</button>
+                    <div class="faq-content">
+                      <p>Yes. To maintain some common grounds on any action to be
+                        taken by the programme, we shall sign a Memorandum of
+                        Understand (MoU).</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -2245,6 +2311,27 @@
         </div>
       </div>
     </section>
+
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++){
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+      content.style.visibility = "hidden";
+      content.style.margin = "0 2%";
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.visibility = "visible";
+      content.style.margin = "12px 2%";
+    }
+  });
+}
+    </script>
     <!-- End Faq Area-->
     <!-- Start Contact Area -->
 
