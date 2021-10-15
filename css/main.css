@@ -2029,8 +2029,6 @@ footer .footer-nav li a:hover {
   transition: transform 0.1s ease-in-out;
 }
 .accordion-item-header.active::after {
-  /*content: "\2212";
-  transform: rotate(180deg);
   content: "\2212";
   transform: rotate(180deg); 
 } */
@@ -2067,8 +2065,6 @@ display:flex;
 width:80%;
 margin:2rem 10%
 } 
-#faqs {}
-
 #faq {
   background-color: rgb(240, 240, 240);
 }
@@ -2116,14 +2112,6 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
     display: inline-block;
     width: 46%;
     margin: 0 2%;
-    }
-  #faqSection .collapsible {
-    background-color: #112240;
-
-    border: 1px solid hsla(0,0%,51.4%,.16);
-    /* overflow:hidden;
-    border-radius: 7px; */
-
     overflow: hidden;
     border-radius: 7px 7px 7px 7px ;
   }
@@ -2184,6 +2172,7 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
     font-family: sans-serif;
     text-shadow: 1px 1px 0 rgb(0 0 0);
   }
+
   @media screen and (max-width:768px){
     .fullwidth-container {
       width: 80%;
@@ -2197,7 +2186,6 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
     }
   }
 
-=======
   #pn{
     display:none;
   }
