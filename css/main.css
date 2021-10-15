@@ -2484,14 +2484,14 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
   box-sizing: border-box
 }
 
-h1 {
+#pn1 {
   margin: 0;
   font-weight: normal;
   color: rgb(60, 60, 70);
   font-size: 28px
 }
 
-p {
+#p2 {
   font-size: 13px;
   /* margin-top: 20px;
   margin-bottom: 30px */
@@ -2502,7 +2502,7 @@ p {
   margin-bottom: 15px
 }
 
-i {
+#i1,i2{
   float: left;
   font-size: 18px !important;
   margin: 0 8px 0 0
@@ -2539,7 +2539,7 @@ button:after {
   margin:8px 13px 0;
 } */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
   .map {
   height: 100%;
   /* margin: calc(50vh - 225px) auto; */
@@ -2559,11 +2559,11 @@ button:after {
   } */
 }
 
-@media only screen and (max-width: 460px) {
-  p {
+@media only screen and (max-width: 768px) {
+  #pn2 {
   display: none
   }
-  h1 {
+  #pn1 {
   margin-bottom:20px
   }
   /* button {
