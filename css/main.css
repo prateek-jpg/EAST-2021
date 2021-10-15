@@ -2031,6 +2031,8 @@ footer .footer-nav li a:hover {
 .accordion-item-header.active::after {
   /*content: "\2212";
   transform: rotate(180deg);
+  content: "\2212";
+  transform: rotate(180deg); 
 } */
 .accordion-item-body {
   max-height: 0;
@@ -2044,7 +2046,7 @@ footer .footer-nav li a:hover {
 }
 .accordion-item-header.active {
   color: red;
-}
+} 
 /*.accordion-item-header.active + .accordion-item-body{
     max-height: auto;
 }*/
@@ -2066,6 +2068,10 @@ width:80%;
 margin:2rem 10%
 } 
 #faqs {}
+
+#faq {
+  background-color: rgb(240, 240, 240);
+}
 .line-heading {
 font-family: sans-serif;
 color: #ccd6f6;
@@ -2110,14 +2116,21 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
     display: inline-block;
     width: 46%;
     margin: 0 2%;
-    
-  }
+    }
   #faqSection .collapsible {
     background-color: #112240;
 
     border: 1px solid hsla(0,0%,51.4%,.16);
     /* overflow:hidden;
     border-radius: 7px; */
+
+    overflow: hidden;
+    border-radius: 7px 7px 7px 7px ;
+  }
+  #faqSection .collapsible {
+    background-color: #112240;
+    border: 1px solid hsla(0,0%,51.4%,.16);
+    border-radius: 7px ;
     box-shadow: 0 10px 30px -15px rgb(0 0 0);
     transition: box-shadow .2s ease 0s;
     color: #ccd6f6;
@@ -2184,6 +2197,17 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
     }
   }
 
+=======
+  #pn{
+    display:none;
+  }
+
+  @media screen and (max-width:768px){
+    #pn{
+      display:block;
+    }
+
+  }
 /*END FAQ AREA*/
 
 .list-display li {
@@ -2438,5 +2462,127 @@ text-shadow: 1px 1px 1px rgb(0 0 0);
 @media (max-width: 767px) {
   .features-content {
     margin-left: -60px;
+  }
+}
+
+/* Contact us */
+
+.map {
+  width: 100%;
+  height: 100%;
+  /* margin: calc(50vh - 190px) auto; */
+  box-shadow: 0 0 40px -10px black;
+  background: rgb(240, 240, 240);
+  font-family: 'Montserrat', sans-serif;
+  /* max-width: calc(100vw - 60px) */
+}
+
+#map {
+  width: 65%;
+  height: 356px;
+  display: inline-block;
+}
+
+#map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+.map-c {
+  float: right;
+  width: 35%;
+  height: 100%;
+  padding: 25px;
+  box-sizing: border-box
+}
+
+#pn1 {
+  margin: 0;
+  font-weight: normal;
+  color: rgb(60, 60, 70);
+  font-size: 28px
+}
+
+#p2 {
+  font-size: 13px;
+  /* margin-top: 20px;
+  margin-bottom: 30px */
+}
+
+.det {
+  font-size: 12px;
+  margin-bottom: 15px
+}
+
+#i1,i2{
+  float: left;
+  font-size: 18px !important;
+  margin: 0 8px 0 0
+}
+
+/* button {
+  margin: 15px 4px;
+  padding: 13px 9px;
+  display: inline-block;
+  cursor: pointer;
+  background: none;
+  color: #546973;
+  border: 2px solid #78909C;
+  transition: all 0.3s;
+  border-radius: 8px;
+  outline:0
+}
+
+button:hover {
+  border-color: rgb(90, 90, 90);
+  color: rgb(90, 90, 90)
+}
+
+button:after {
+  content: 'Directions';
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 11px;
+  margin-top: 8px
+} */
+
+/* center .fa-envelope:after {
+  content: "Email";
+  margin:8px 13px 0;
+} */
+
+@media only screen and (max-width: 768px) {
+  .map {
+  height: 100%;
+  /* margin: calc(50vh - 225px) auto; */
+  overflow: hidden
+  }
+  #map {
+  width: 100%;
+  height: 500px;
+  }
+  .map-c {
+  float: right;
+  width: 100%;
+  }
+  /* button {
+  float: right;
+  margin-top: -75px
+  } */
+}
+
+@media only screen and (max-width: 768px) {
+  #pn2 {
+  display: none
+  }
+  #pn1 {
+  margin-bottom:20px
+  }
+  /* button {
+  float: none;
+  margin-top: 10px
+  } */
+  .det {
+  margin-bottom: 9px
   }
 }
