@@ -310,3 +310,12 @@ nav ul li a:hover {
     display: none;
   }
 }
+
+/* @media screen and (max-width: 1920px){
+  .social-media {
+    padding-top: 0.1rem;
+  }
+    .home {
+      height: 110vh;
+  }
+} */
