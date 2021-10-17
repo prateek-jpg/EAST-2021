@@ -2585,3 +2585,10 @@ button:after {
   margin-bottom: 9px
   }
 }
+
+@media screen and (max-width:768px){
+  #red{
+    font-size: 27px;
+  }
+  
+}
