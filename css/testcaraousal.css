@@ -8,6 +8,7 @@
 .img-circle{
   width: auto;
   height: 100%;
+  border-radius: 7px;
 }
 .owl-theme .owl-dots .owl-dot span{
   margin: 1px 1px;
@@ -71,16 +72,15 @@
 .cells{
   
   text-align: center;
-  width: 12em;
-  height: 4em;
+  width: 30vw;
+  height: 8vh;
   border-radius: 5em;
   border: none;
   outline: none;
   background: var(--clr-med);
   box-shadow: -5px -5px 10px var(--clr-light), 5px 5px 10px var(--clr-dark),
-    inset -5px -5px 10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
+    inset -5px -5px -10px var(--clr-light), inset 5px 5px 10px var(--clr-dark);
   font-family: Montserrat, sans-serif;
-  font-size: 23px;
   color: var(--clr-dark-heavy);
 
 }
