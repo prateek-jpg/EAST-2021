@@ -65,10 +65,12 @@
     <link rel="stylesheet" href="css/colour.css"/>
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/pre.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="new.js"></script>
+
   </head>
 
   <body>
@@ -156,6 +158,13 @@
 				</section>	 -->
      <!-- </div>
     </section>-->
+
+  
+
+    <div class="loader_bg">
+      <div class="loader"></div>
+  </div>
+
 
     <div id="loading"></div>
     <div id="top"></div>
@@ -258,23 +267,7 @@
                   line-height: 25px;
                 "
               >
-                E-Cell VSSUT, after having a great number of achievements,
-                having organised E-Summits, Leadership summit, Hackathons, TEDx
-                - all successsfully along with having startups ranging from
-                emerging startups to successfully running startups. We
-                understand the importance of coming together for a greater cause
-                and the amount of exposure we can have after that. Fraternizing
-                of similar organisations and strong collaboration with the
-                motive of coming up with something really big is what
-                <strong>E.A.S.T</strong> aims for
-                <strong>E</strong>ntrepreneurship <strong>A</strong>ccords and
-                <strong>S</strong>tartup growth <strong>T</strong>raffic
-                (E.A.S.T) is one of it's kind programme initiated by E-Cell,
-                VSSUT. It encourages the entrepreneurship spirit and instils the
-                idea of establishing similar organisations along with equating
-                with the existing ones. We will be really glad on partenering
-                with similar instituitions and we look forward for such
-                collaborations.
+              The "Entrepreneurship-Cell", VSSUT, as the name states itself, has been an excellent platform for promising entrepreneurs and their walkway to the Dealing World. Being the organizer of Hackathons like Innobuzz, TEDxTalks, various showcase events, summits, and conclaves, the club has evoked the culture of self-employment and directed everyone to embrace the goals. To induce an entrepreneurial mindset into students and understand the importance of together workforce for a great cause, an ingenious streak in E-Cell, VSSUT started a student-led program, “E.A.S.T" ( Entrepreneurship Accords and Startup growth Traffic). This initiative, along with encouraging entrepreneurial spirits, instills the idea of establishing network arrangements with different organizations in the company with equating with the existing ones for strong collaboration for the motive of success is what E.A.S.T aims for.  We gladly look forward to a better establishment that will be an excellent fit for the club to collaborate with, and the partnership could work out well for both our organizations.
               </p>
             </div>
           </div>
@@ -1432,12 +1425,12 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="image">
-                  <img src="img/Ankan.jpg" />
+                  <img src="img/a.jpg" />
                 </div>
                 <div class="details">
                   <h5>
-                    ANKAN BISWAS<br />
-                    <p>Coordinator E-Cell, VSSUT</p>
+                    PRATIK CHOWDHURY<br />
+                    <p>Designing Head</p>
                     <div
                       class="social d-flex align-items-center justify-content-center"
                     >
@@ -1446,7 +1439,7 @@
                         target="_blank"
                         ><i class="fa fa-instagram fa-lg"></i
                       ></a>
-                      <!--a href="#"><i class="fa fa-twitter"></i></a-->
+                      <a href="#"><i class="fa fa-twitter"></i></a>
                       <a
                         href=" https://www.linkedin.com/in/ankan-biswas-24896b175/"
                         target="_blank"
@@ -1485,7 +1478,7 @@
 
               
 
-              <div class="swiper-slide">
+              <!--<div class="swiper-slide">
                 <div class="image">
                   <img src="img/Vikalp.jpg" />
                 </div>
@@ -1501,7 +1494,7 @@
                         target="_blank"
                         ><i class="fa fa-instagram fa-lg"></i
                       ></a>
-                      <!--a href="#"><i class="fa fa-twitter"></i></a-->
+                      <a href="#"><i class="fa fa-twitter"></i></a>
                       <a
                         href=" https://www.linkedin.com/in/vikalp-mishra-1b898317a/"
                         target="_blank"
@@ -1510,7 +1503,7 @@
                     </div>
                   </h5>
                 </div>
-              </div>
+              </div>-->
 
               <div class="swiper-slide">
                 <div class="image">
@@ -1655,7 +1648,7 @@
                 <div class="details">
                   <h5>
                    PRAJABHAV MISHRA<br />
-                    <p>Design Head</p>
+                    <p>Coordinator E-Cell, VSSUT</p>
                     <div
                       class="social d-flex align-items-center justify-content-center"
                     >
@@ -2822,7 +2815,14 @@ for (i = 0; i < coll.length; i++){
     <script src="js/swiper.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/home.js"></script>
+
     <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 2500);
+    </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <script>
